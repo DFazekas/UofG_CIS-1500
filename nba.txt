@@ -1,0 +1,16 @@
+Player PPG REB AST STL BLK
+Stephen Curry 30.1 5.4 6.5 2.1 0.2
+James Harden 28.5 6.3 7.4 1.8 0.6
+Kevin Durant 27.8 8.3 5.0 0.9 1.3
+DeMarc Cousins 27.1 11.6 3.3 1.5 1.4
+Damian Lillard 25.7 4.2 6.9 0.9 0.4
+LeBron James 25.0 7.4 6.6 1.4 0.6
+Anthony Davis 24.3 10.3 1.9 1.3 2.0
+DeMar DeRozan 23.7 4.4 3.9 1.0 0.3
+Russ Westbrook 23.6 7.7 10.4 2.1 0.3
+Paul George 23.4 7.0 4.2 1.9 0.3
+Klay Thompson 22.2 3.9 2.1 0.8 0.6
+Isaiah Thomas 22.2 3.0 6.4 1.1 0.1
+Kyle Lowry 21.9 5.0 6.4 2.2 0.4
+Carmelo Anthony 21.9 7.9 4.2 0.8 0.5
+Jimmy Butler 21.4 5.2 4.5 1.7 0.6
