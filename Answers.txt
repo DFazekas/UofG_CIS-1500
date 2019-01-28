@@ -1,0 +1,89 @@
+CIS*1500 W16 - Assignment #1
+Due: Friday, January 29, 3pm.
+
+Upload the first 6 questions in a typed document in .pdf or .txt format.
+Upload your C program for question 7 separately.
+
+1. [4 marks] Provide a series of printf statements to output the following:
+	printf("x \"hi\" x\n");
+	printf("x *hi* x\n");
+	printf("x \\hi\\ x\n");
+	printf("x %%hi%% x\n");
+
+2. [5 marks] True or False:
+	(a) TRUE.
+	(b) TRUE.
+	(c) FALSE.
+	(d) TRUE.
+	(e) TRUE.
+
+3. [5 marks] Which of the following are valid C identifier names for variables?
+	(a) HiThere
+	(b) single
+	(c) triple
+	(d) under_score
+	(e) intersection
+	(f) _score
+	(g) name123
+	(h) unless
+	(i) ALLCAPS
+
+4. [15 marks] True or False, the following statements follow valid C syntax:
+	(a) False.
+	(b) False.
+	(c) True.
+	(d) False.
+	(e) True.
+
+5. [4 marks] Output Art: Provide a series of at least 5 printf statements to produce a visually pleasing output. 
+If your creativity is low, output the first 3 characters of your name.
+	printf("    DDDDDDDDD                                                 ");
+	printf("    DDD      DDD                                              ");
+	printf("    DDD        DDD                                            ");
+	printf("    DDD          DDD       eeeee          v            vv     ");
+	printf("    DDD          DDD     ee     ee         vv         vv      ");
+	printf("    DDD          DDD    ee       ee         vv       vv       ");
+	printf("    DDD          DDD    eeeeeeeeeeee         vv     vv        ");
+	printf("    DDD        DDD       ee                   vv   vv         ");
+	printf("    DDD      DDD          eee                  v  vv          ");
+	printf("    DDDDDDDDD               eeeeee              vv            ");
+ 
+6. [8 marks] You are designing a new online census. As part of the interface, you wish to display how old the user is in terms of both years and months. 
+For example, if the current day is Jan 25, 2011 and the user is born on Jan 26, 2001, then you want to display: 
+"You are 9 years old and have been alive for 119 months". But currently you do not have any information about the user. How can you get and display this information?
+(a) What are the inputs and outputs required in this problem?
+	int CurrentYear, CurrentMonth, CurrentDay;
+	int BirthYear, BirthMonth, BirthDay;
+	int YearsLived, MonthsLived, DaysLived;
+    
+(b) What are the subproblems that should be considered when designing an algorithm?
+	(1) The values of the day/month/year need to be handled individually, rather than one lump sum integer; each variable has varying limitations that must be handled uniquely.
+		- Days must be between 1 & 31; Months between 1 & 21, and years must at least be positive (minimum value is optional).
+	(2) Types of input; anticipate and prepare to handle invalid inputs; too few/many digits, non-numeric, etc.
+		- Loop questions until appropriate values are obtained, then carry on.
+	(3) The differences between the years (Current & Birth) may incorrectly evaluate to zero when equal, despite BirthMonths surpassing CurrentMonths, or BirthDays overlapping CurrentDays.
+		- The difference in the years 2011 and 2001 may evaluate to 10 years, thus differences in months and days must be taken into consideration, so that it evaluates to 9 instead. 
+	(4) 
+
+(c) Design an algorithm (pseudocode) for this problem.
+	- Declare and initialize all necessary values (BirthYear, CurrentDay, MonthsLived, etc.).
+	- Begin question-loops, stopping upon valid input.
+	- Prompt user for today's date (MM,DD,YYYY).
+	- Scan each input separately.
+	- If INVALID (DAY < 1 or DAY > 31, or MONTH > 12, etc.), repeat.
+	- Otherwise, prompt user for their birthdates.
+	- Scan each input separately.
+	- If INVALID (BirthYear > CurrentYear), repeat.
+	- Otherwise, proceed to calculations.
+	- If 
+
+7. [10 marks] Write a C program to compute the area and perimeter of a rectangle. You should prompt the user to enter two integers: the length and the width. 
+The output should be formatted exactly as follows given the user inputs a length of 15 and width of 4:
+The area of the rectangle is 15 x 4 = 60.
+The perimeter of the rectangle is equal to (2 x 15) + (2 x 4) = 38.
+	
+
+Include appropriate comments. 
+A marking key for this program is provided separately in the Assignments folder. 
+Upload the C program into the Assignment 1 - Q7 folder using the Courselink Dropbox. 
+Your file must be named username_ass1.c where username is your University username.
