@@ -1,0 +1,8 @@
+There are 1 students in this class.
+The average for assignment #1 is 90%
+The average for assignment #2 is 89%
+The average for assignment #3 is 78%
+The average for assignment #4 is 83%
+The average for assignment #5 is 86%
+The average for the midterm is 88%
+The average for the final is 77%
